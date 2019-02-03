@@ -6,7 +6,7 @@ Template Name: Landing page
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BnW Template</title>
+	<title><?php bloginfo( 'name' ); ?></title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/landing/style.css" type="text/css"/>
 </head>
